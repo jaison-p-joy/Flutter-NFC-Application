@@ -5,6 +5,8 @@ This NFC Reader and Writer application for Android demonstrates the capabilities
 - **Method Channel**
 - **Android - Kotlin**
 
+- **check master branch for code**
+
 ## Features
 
 - **Read NFC Tags**: Detect NFC tags and read data such as text, URLs, or other NDEF formatted data.
