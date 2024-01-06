@@ -1,16 +1,36 @@
-# nfc_method_channel
+# Flutter-NFC-Application
 
-A new Flutter project.
+This NFC Reader and Writer application for Android demonstrates the capabilities of reading from and writing to NFC tags. It uses Android's NFC API to interact with NFC tags and performs operations like reading tag information and writing data to tags.
+- **Flutter**
+- **Method Channel**
+- **Android - Kotlin**
+
+- **check master branch for code**
+
+## Features
+
+- **Read NFC Tags**: Detect NFC tags and read data such as text, URLs, or other NDEF formatted data.
+- **Write to NFC Tags**: Write simple text data to an NFC tag.
+- **Real-Time NFC Status**: Display the current NFC status of the device (supported/enabled).
+- **Custom Notifications**: Show notifications when an NFC tag is scanned and contains a message.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Check the master branch for code.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Android device with NFC capabilities.
+- Android Studio.
+- Flutter environment set up.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+- To read an NFC tag, simply bring an NFC tag close to your device.
+- To write to an NFC tag, enter the text in the provided field and then bring the NFC tag close to your device.
+- The app will display the status of NFC (enabled/disabled) and show notifications for NFC interactions.
+
+## Built With
+- Flutter - The UI toolkit used.
+- Android NFC API - Used for handling NFC operations.
+  
